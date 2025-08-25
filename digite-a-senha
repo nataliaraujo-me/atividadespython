@@ -1,0 +1,10 @@
+#2. Crie um programa que peça uma senha ao usuário e só termine quando a senha correta for "python123".
+
+input("Eu vou te contar um segredo. A senha do meu cofre é 'python123'. Press Enter para continuar.")
+print("(o tempo passou e você esqueceu a senha...)")
+senha = "python123"
+dig_senha = str(input("Digite a senha do cofre: "))
+while dig_senha != senha:
+    dig_senha = str(input("Senha incorreta! Tente novamente: "))
+if dig_senha == senha:
+    print("Senha correta! O cofre está aberto.")
