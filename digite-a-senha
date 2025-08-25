@@ -1,6 +1,6 @@
 #2. Crie um programa que peça uma senha ao usuário e só termine quando a senha correta for "python123".
 
-input("Eu vou te contar um segredo. A senha do meu cofre é 'python123'. Press Enter para continuar.")
+input("Eu vou te contar um segredo. A senha do meu cofre é 'python123'. Tecle Enter para continuar.")
 print("(o tempo passou e você esqueceu a senha...)")
 senha = "python123"
 dig_senha = str(input("Digite a senha do cofre: "))
