@@ -1,0 +1,27 @@
+name = str(input("Bem-vindo ao portal de departamento pessoal. Digite o seu nome: ")
+
+vh = float(input(f"{name}, quanto você recebe por hora? ")
+
+hm = float(input("Quantas horas trabalha por mês? ")
+ 
+sm = vh*hm
+
+input(f"{name}, seu salário bruto é de {sm}. Tecle ENTER parar..  prosseguir com a sua consulta salarial.")
+
+dir = sm*0.11
+dinss = sm*0.08
+dsind = sm*0.05
+
+descontos = dir+dinss+dsind
+
+salario_liquido = sm-descontos
+
+print(f"""O seu salário líquido se apresenta da seguinte forma:
+
++Salário bruto: R${sm}
+* IR (11%): R${dir}
+* INSS (8%): R${dinss}
+* Sindicato (5%): R${dsind}
+= Salário Líquido: R${salario_liquido}”””)
+
+print(“Para mais dúvidas, entre em contato com o departamento pessoal.”)
