@@ -1,0 +1,13 @@
+#Esse códico está com problema, mas já adicionei aqui para rever em casa.
+
+#1. Faça um programa que peça números ao usuário até que ele digite 0. Ao final, mostre a soma de todos
+os números digitados.
+
+num = int(input("Vou provar como sou um gênio, HAHAHAHA! \nDigite os números que pensar e depois clique enter, quando digitar 0, somarei todos os anteriores."))
+sum = 0
+
+while num != 0:
+    num = int(input("Digite outro número: "))
+if num == 0:
+    sum += num
+print(f"Bem, a soma de todos os números é {sum}. Eu sou um gênio, HAHAHAHA!")
