@@ -1,0 +1,6 @@
+l1 = float(input("Vamos calcular a área do quadrilátero. \n Qual o tamanho em centímetros do primeiro lado? "))
+l2 = float(input("Agora qual o valor do segundo lado? "))
+
+area=l1*l2
+
+print(f"A área do quadrilátero é {area} cm.")
