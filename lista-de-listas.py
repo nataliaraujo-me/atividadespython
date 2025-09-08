@@ -13,7 +13,7 @@
 #print([livros])
 
 #4
-#livros.insert(2, "Duna - Frank Hebert")
+#livros.insert(1, "Duna - Frank Hebert")
 #print([livros])
 
 #5
@@ -77,4 +77,5 @@
 #tabuleiro[7] = pecas
 
 #for linha in tabuleiro:
+
 #    print(linha)
